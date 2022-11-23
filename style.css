@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+--background-color-main: rgb(45, 92, 94);
+--background-color-secondary: rgb(102, 208, 211);
+}
+
+header {
+    height: 80px;
+    background-color: var(--background-color-main);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+header img {
+    height: 100%;
+}
+
+#menu-links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+}
+    
+#section-about {
+    height: 600px;
+    background-color: var(--background-color-secondary);
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#section-about p,
+#section-about h1 {
+    width: 80%;
+}
